@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        header{
+            background-color: black;
+            padding:20px 25px;
+
+        }
+        nav{
+            display:inline-block;
+            /* calc nedir incele*/
+            width:calc(100% - 103px);
+            text-align: right;
+
+        }
+        nav ul{
+             list-style-type: none;
+
+        }
+        nav ul li{
+            display:inline-block;
+            margin:10px 25px;
+        }
+        .logo{
+            color:white;
+            text-decoration:none;
+            font-weight: bold;
+            font-size: 22px;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:bisque;
+            padding: 15px 25px;
+            font-size: 22px;
+        }
+        nav ul li a:hover{
+            background-color: antiquewhite;
+            color:black;
+
+        }
+        /* MENU ALTINDAKİ RESİM KISMI*/
+        #section-1{
+            background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/pisa.jpg);
+            background-position:top;
+            padding: 12px;
+            height: 850px;
+            width: 100%;
+            background-size: cover;
+        }
+        .buton-s1{
+            margin-left:37%;
+            margin-top:20%;
+            background-color: #E94560;
+            color:white;
+            padding: 30px 20px;
+            font-size: 20px;
+            border-radius: 6px;
+            transition: 1s;
+        }
+        .buton-s1:hover{
+            color:black
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">LOGO</a>
+        <nav>
+            <ul>
+                <li><a href="#">Menü</a></li>
+                <li><a href="#">İçecekler</a></li>
+                <li><a href="#">Tatlılar</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section-1">
+            <button class="buton-s1">MENÜLERİ GÖRMEK İÇİN TIKLAYIN</button>
+        </section>
+    </main>
+    
+</body>
+</html>
