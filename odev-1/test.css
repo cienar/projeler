@@ -1,0 +1,20 @@
+table{
+    color:blue;
+    font-size: large;
+}
+tr{
+    color:blue;
+    font-size: larger;
+
+}
+td{
+    color:rgb(128, 128, 189);
+    font-size: 20px;
+    weight:50%;
+    border:2px solid ;
+    border-spacing: 10px;
+    
+}
+.baslik1 {
+    text-align: center;
+}
